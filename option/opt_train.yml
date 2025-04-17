@@ -1,0 +1,45 @@
+#######################
+MODEL:
+  NAME: 'ALICE'
+  T_STEP: 5
+  SCALE: 1
+
+SET:
+  DATASET: 'Syn'
+  ColorSET: 'Color'
+  GPU: [3]
+  DEVICE: 'cuda'
+  TRAIN_PS: [256, 256]
+  VAL_PS: [256, 256]
+#  TRAIN_PS: [160, 480]
+#  VAL_PS: [160, 480]
+
+  MULTI_GPU: False
+  SAVE_IMG: False
+  RESUME: False
+
+  EXP_EPOCHS: 0
+  VAL_EPOCHS: 1
+  EPOCHS: [100, 20, 50]
+  BATCHSIZE: [4, 30, 2]
+  LR_INIT: [2e-4, 1e-3, 1e-4]
+  LR_MIN: [1e-6, 1e-10, 1e-6]
+#  EPOCHS: [100,100,100]
+#  BATCHSIZE: [2,8,2]
+#  LR_INIT: [2e-4, 2e-4, 2e-4]
+#  LR_MIN: [1e-6, 1e-6, 1e-6]
+
+DIR:
+  #TRAIN: '../CMD/Debug/Debug/'
+  #VAL: '../CMD/Debug/Debug/'
+  TRAIN: '/home/tdx/桌面/Project/databak/EXT4/YPW/UAV_LDRM/UAV_LCM/Syn/Train'
+  VAL: '/home/tdx/桌面/Project/databak/EXT4/YPW/UAV_LDRM/UAV_LCM/Syn/Test/R256'
+
+#  TRAIN: '/home/tdx/ypw/simulate_data/uavid_v1.5_official_release_image/Real8.31/Train'
+#  VAL: '/home/tdx/ypw/simulate_data/uavid_v1.5_official_release_image/Real8.31/Test/Test'
+#  TRAIN: '/home/tdx/ypw/simulate_data/uavid_v1.5_official_release_image/SynV3/Train'
+#  VAL: '/home/tdx/ypw/simulate_data/uavid_v1.5_official_release_image/SynV3/Test/R256'
+  SAVE: './checkpoints_ALICC/3'
+#  TRAIN: './LCM/Real/Real/Train'
+#  VAL: './LCM/Real/Real/Test/Test'
+#  SAVE: './checkpoints/'
