@@ -35,12 +35,12 @@ If you found this code useful, please cite the paper. Welcome üëçFork and Star
 @ARTICLE{10948510,
   author={Yuan, Pengwu and Lin, Liqun and Lin, Junhong and Liao, Yipeng and Zhao, Tiesong},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Low-Light Aerial Imaging with Color and Monochrome Cameras}, 
+  title={Low-Light Aerial Imaging With Color and Monochrome Cameras}, 
   year={2025},
-  volume={},
+  volume={63},
   number={},
-  pages={1-1},
-  keywords={Cameras;Image restoration;Image color analysis;Perturbation methods;Degradation;Lighting;Colored noise;Wavelet transforms;Frequency modulation;Superresolution;Low-light Aerial Imaging;Color-Monochrome Cameras},
+  pages={1-10},
+  keywords={Cameras;Image restoration;Image color analysis;Perturbation methods;Degradation;Lighting;Colored noise;Wavelet transforms;Frequency modulation;Superresolution;Color-monochrome cameras;low-light aerial imaging},
   doi={10.1109/TGRS.2025.3557565}}
 ```
 ## Acknowledgements
